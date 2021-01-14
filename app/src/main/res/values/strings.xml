@@ -1,18 +1,11 @@
 <resources>
-    <string name="app_name">ESC</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Eco Self Challenge</string>
 
     <string name="menu_home">Beranda</string>
     <string name="menu_tips">Tips</string>
     <string name="menu_date">Hari Peringatan</string>
     <string name="menu_about_app">Tentang Aplikasi</string>
     <string name="menu_about_me">Tentang Saya</string>
-    <string name="nav_header_version">ESC versi 1.0.0</string>
     <string name="menu_tips_f">Daur Ulang</string>
     <string name="menu_tips_s">Aksi Nyata</string>
     <string name="title_first_fragment">Tips Daur Ulang Sampah</string>

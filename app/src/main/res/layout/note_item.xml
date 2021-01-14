@@ -16,23 +16,23 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingLeft="18dp"
-        android:paddingTop="5dp"
+        android:paddingTop="10dp"
         android:paddingRight="8dp"
-        android:paddingBottom="5dp">
+        android:paddingBottom="10dp">
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
             <TextView
                 android:id="@+id/text_view_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="12:09"
+                android:text="Judul"
                 android:textColor="@color/negro"
                 android:textSize="22sp" />
 
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:text="AM"
+                android:text="des"
                 android:textColor="@color/negro"
                 android:textSize="12sp"
                 android:layout_marginStart="5dp" />

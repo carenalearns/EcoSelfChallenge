@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -40,11 +43,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
-        android:text="Link"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:text="Kunjungi Video"
         android:fontFamily="sans-serif"
         android:textSize="18sp"
         android:textColor="@color/colorPrimary" />
-
 </LinearLayout>
+</ScrollView>

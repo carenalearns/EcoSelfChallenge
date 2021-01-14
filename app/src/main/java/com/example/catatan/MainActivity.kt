@@ -2,11 +2,12 @@ package com.example.catatan
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                 Intent(this, AddEditNoteActivity::class.java),
                 ADD_NOTE_REQUEST )
         }
+
         recycler_view.layoutManager = LinearLayoutManager(this)
         recycler_view.setHasFixedSize(true)
         val adapter = NoteAdapter()
@@ -113,5 +115,20 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Catatan tidak disimpan!",
                 Toast.LENGTH_SHORT).show()
         }
+    }
+
+    fun PindahTips(view: View?) {
+        val intent = Intent(this@MainActivity, TipsActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun PindahDate(view: View?) {
+        val intent = Intent(this@MainActivity, DateActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun PindahAbout(view: View?) {
+        val intent = Intent(this@MainActivity, AboutAppActivity::class.java)
+        startActivity(intent)
     }
 }

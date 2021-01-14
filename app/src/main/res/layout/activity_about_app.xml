@@ -4,6 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutAppActivity">
+    tools:context=".AboutAppActivity"
+    android:background="@drawable/background">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorAccent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="30dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgpf"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_baseline_eco_24" />
+                    <TextView
+                        android:id="@+id/namapf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:text="@string/app_name"
+                        android:textColor="@android:color/black"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="50dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Aplikasi dinamai Eco Self Challenge yang dimana dalam aplikasi juga menyediakan beberapa tantangan berupa aksi nyata kepada penggunanya yang kemudian diharapkan dapat diterapkan oleh penggunannya. Hal itu menjadi dasar tujuan dari aplikasi dimana dapat membuat kebiasaan baru penggunanya untuk tetap peduli akan pentingnya lingkungan."
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="50dp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:text="by Carena Learns Prasetyo\nNPM : 18082010042\nParalel : A\nGitHub : github.com/EcoSelfChallenge"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
