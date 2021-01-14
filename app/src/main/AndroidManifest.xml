@@ -8,19 +8,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutMeActivity" />
-        <activity android:name=".AboutAppActivity" />
-        <activity android:name=".DateActivity" />
-        <activity android:name=".TipsActivity" />
-        <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTop">
+        <activity android:name=".ToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AboutMeActivity" />
+        <activity android:name=".AboutAppActivity" />
+        <activity android:name=".DateActivity" />
+        <activity android:name=".TipsActivity" />
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".AddEditNoteActivity"
             android:parentActivityName=".MainActivity" />
