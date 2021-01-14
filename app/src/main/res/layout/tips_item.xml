@@ -43,15 +43,6 @@
                 android:textColor="@color/negro"
                 android:textSize="22sp" />
 
-            <TextView
-                android:id="@+id/text_desc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="Deskripsi"
-                android:textColor="@color/negro"
-                android:textSize="12sp" />
-
         </LinearLayout>
 
     </LinearLayout>

@@ -8,7 +8,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutMeActivity"></activity>
+        <activity android:name=".AboutMeActivity" />
         <activity android:name=".AboutAppActivity" />
         <activity android:name=".DateActivity" />
         <activity android:name=".TipsActivity" />
