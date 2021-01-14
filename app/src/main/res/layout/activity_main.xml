@@ -11,8 +11,9 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/lightGray"
-        tools:itemCount="5"
+        android:clipToPadding="false"
+        android:paddingTop="7dp"
+        android:paddingBottom="80dp"
         tools:listitem="@layout/note_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

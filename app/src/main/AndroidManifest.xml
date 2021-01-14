@@ -8,7 +8,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name=".AboutMeActivity"></activity>
+        <activity android:name=".AboutAppActivity" />
+        <activity android:name=".DateActivity" />
+        <activity android:name=".TipsActivity" />
+        <activity
+            android:name=".MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +23,7 @@
         </activity>
         <activity
             android:name=".AddEditNoteActivity"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
